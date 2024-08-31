@@ -1,6 +1,6 @@
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-expect-error
-import { MenuItem } from "../types";
+
+
+import type { MenuItem } from "@/types";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 
 type Props = {
